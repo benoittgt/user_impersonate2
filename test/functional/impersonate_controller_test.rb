@@ -120,5 +120,9 @@ class UserImpersonate::ImpersonateControllerTest < ActionController::TestCase
       @controller.view_context.current_staff_user
     end
   end
+
+  test 'user is being properly impersonate' do
+    #expect to signout when delete :destroy
+  end
 end
 

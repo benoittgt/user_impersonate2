@@ -22,4 +22,6 @@ gem 'devise'
 # For code coverage via https://coveralls.io/
 gem 'coveralls', :require => false
 
-gem 'mocha', '~> 0.13.0', :require => false
+gem 'mocha', require: false
+
+gem 'test-unit'

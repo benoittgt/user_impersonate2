@@ -1,4 +1,5 @@
 require 'rails'
+require "mocha/api"
 
 module TestUtils
   extend self
